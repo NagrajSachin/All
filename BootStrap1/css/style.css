@@ -1,0 +1,285 @@
+.container{
+    margin-top : 10px;
+    padding : 10px 10px 10px 10px;
+}
+
+.container-fluid{
+    margin-top : 10px;
+}
+
+.div{
+    padding : 10px;
+}
+
+#companyname{
+    font-weight : bold;
+    font-size : 20px;
+}
+
+.navbar-toggle,.icon-bar{
+    border : 1px solid gray;
+}
+
+.navbar-toggle{
+    font-size : 10px;
+}
+
+.container:after{
+    content: "";
+    display : block;
+    clear : both;
+}
+
+.container #companyname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top : 20px;
+    padding-right : 20px;
+}
+
+#demo{
+    float : right;
+    padding : 0px;
+}
+
+.container #drop{
+    border-radius : 25px;
+    float : right;
+}
+
+.container #pencil{
+    float : right;
+    margin-left: 10px;
+}
+
+.container .downarrow{
+    float : right;
+    margin-left: 10px;
+}
+
+.container #month{
+    margin-left: 10px;
+    float:right;
+}
+
+.container #year{
+    float:right;
+    margin-left:10px;
+}
+
+.container .dash{
+    float:right;
+    margin-left : 10px;
+}
+
+/*Till Container One*/
+
+#backgrounddiv{
+    background-color :  rgb(111, 116, 116); 
+}
+
+#uparrow{
+    float:right;
+}
+
+.container2{
+    padding : 10px;
+    background-color :rgb(144, 182, 182);
+}
+
+#innerdiv1{
+    font-size : 20px;
+    font-weight: bold;
+}
+ 
+#innerdiv2{
+    padding-top : 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.rightspan{
+    float : right;
+}
+
+.line{
+    border : none;
+    border-bottom: 1px solid gray;
+}
+
+#container3{
+    margin : 20px 10px 10px 10px;
+    border : 1px solid black;
+}
+
+#container3:after{
+    content : "";
+    display : block;
+    clear: both;
+}
+
+#recyclebin{
+    float : right;
+    
+}
+
+#uarrow{
+    float: right;
+    margin-left : 10px;
+}
+
+
+#innerdiv32{
+    padding-top : 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+#innerdiv33{
+    padding : 10px;
+}
+
+#div1{
+    margin-top:20px;
+    padding : 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: rgb(185, 185, 185);
+}
+
+#innerdiv33 > #div2{
+    margin-top:20px;
+    padding : 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding-left: 0;
+}
+
+#div2 .rightspan{
+    text-align: center;
+}
+
+#innerdiv34 > #div3{
+    padding : 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+#div4{
+    padding : 10px;
+    float : right;
+}
+
+.innerspan1{
+   float : right;
+}
+
+.innerspan2{
+    clear : both;
+    float : right;
+}
+
+#innerdiv31{
+    font-size : 17px;
+    font-weight : bold;
+}
+
+
+
+/* large */
+@media (min-width: 992px) and (max-width: 1200px) {
+    #demo{
+        float : right;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    #demo{
+        float : right;
+    }
+}
+
+/* small */
+@media (min-width: 481px) and (max-width: 767px) {
+    #innerdiv31{
+        font-size : 1.5rem;
+        font-weight : bold;
+    }
+
+    #innerdiv1{
+        font-size : 1.5rem;
+    }
+    
+    #companyname{
+        font-weight : bold;
+        font-size : 2.5rem;
+        padding-left : 10px;
+    }
+    
+    #innerdiv34 > #div3{
+        padding : 10px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+        .scrollable{
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+    }
+
+    #demo{
+        float : left;
+        clear : both;
+        margin-left : 10px;
+    }
+}
+
+/* extra small */
+@media (min-width: 260px) and (max-width: 480px) {
+    #innerdiv31{
+        font-size : 1rem;
+        font-weight : bold;
+    }
+  
+    #innerdiv1{
+        font-size : 1rem;
+    }
+    
+    .container #companyname{
+        font-weight : bold;
+        font-size : 2rem;
+        padding-left : 10px;
+    }
+
+
+    #innerdiv34 > #div3{
+    display: grid;
+    grid-template-columns: auto;
+    padding : 20px;
+    padding-left: 30px;
+    }
+
+    .scrollable{
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+    }
+
+    #demo{
+        float : left;
+        clear : both;
+        margin-left : 10px;
+    }
+}
+

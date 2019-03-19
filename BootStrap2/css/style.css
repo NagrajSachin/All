@@ -1,0 +1,709 @@
+.container-fluid{
+    padding : 20px;
+}
+
+.container{
+    margin: 10px 10px 10px 10px;
+    padding : 10px;
+}
+.row{
+    margin: 10px 10px 10px 10px;
+    padding : 10px;
+}
+
+#achievements{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color:gray;
+    font-size : 25px;
+}
+
+#activity{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color:gray;
+    font-size : 25px;
+}
+
+.activityspan{
+    font-weight : bold;
+    color:gray;
+    font-size : 25px;
+    float : right;
+    margin-left : 30px;
+}
+
+#div1{
+    margin-top : 10px;
+}
+
+.p1{
+    margin-top:58px;
+}
+
+.psize1{
+    font-size: 35px;
+    font-weight : bold;
+    font-family : Arial, Helvetica, sans-serif;
+    color : rgb(45, 183, 238);
+}
+
+#psize2{
+    margin-top : 3px;
+    font-size: 20px;
+    font-weight : bold;
+    font-family : Arial, Helvetica, sans-serif;
+    color : rgb(45, 183, 238);
+}
+
+.divspace{
+}
+
+.float{
+    float : right;
+}
+
+#div3span2{
+    margin-left : 50px;
+}
+
+.flex-container {
+    margin-top : 20px;
+    display: flex;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width : 13%;
+}
+
+.fp{
+    font-size: 10px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : white;
+}
+
+.fp1{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : gray;
+}
+
+#div4{
+    margin-top : 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap : 20px;
+}
+
+#div4 > div{
+    background-color : #f1f1f1;
+}
+
+.div4span1{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span3{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div{
+    margin-top : 20px;
+}
+
+.div4-1{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(236, 184, 85);
+}
+
+.spanr1{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+/* sds */
+
+.div4-2{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(223, 135, 150);
+}
+
+.div4span1-1{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2-1{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+
+}
+
+.div4span3-1{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4-1{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5-1{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin-1{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div-1{
+    margin-top : 20px;
+}
+
+.spanr1-1{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2-1{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+/* sdf */
+.div4-3{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(98, 98, 238);
+}
+
+.div4span1-2{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2-2{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+
+}
+
+.div4span3-2{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4-2{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5-2{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin-2{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div-2{
+    margin-top : 20px;
+}
+
+.spanr1-2{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2-2{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+/* dsafsd */
+.div4-4{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(230, 121, 230);
+}
+
+.div4span1-3{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2-3{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+
+}
+
+.div4span3-3{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4-3{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5-3{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin-3{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div-3{
+    margin-top : 20px;
+}
+
+.spanr1-3{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2-3{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+/* sgsg */
+.div4-5{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(131, 17, 36);
+}
+
+.div4span1-4{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2-4{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+
+}
+
+.div4span3-4{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4-4{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5-4{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin-4{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div-4{
+    margin-top : 20px;
+}
+
+.spanr1-4{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2-4{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+/* sdfg */
+.div4-6{
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom : 10px solid rgb(80, 233, 80);
+}
+
+.div4span1-5{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span2-5{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+
+}
+
+.div4span3-5{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+}
+
+.div4span4-5{
+    float : right;
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.div4span5-5{
+    font-size: 15px;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.pin-5{
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    color : rgb(45, 183, 238);
+    font-size: 25px;
+}
+
+.div4div-5{
+    margin-top : 20px;
+}
+
+.spanr1-5{
+    float :right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.spanr2-5{
+    clear : both;
+    float : right;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height : 150px;
+    width : 120px;
+} 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+      #div2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap : 100px;
+        width : 100%;
+    }
+
+    #div4{
+        margin-top : 30px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap : 20px;
+        width : 100%;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+        #div2{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap : 100px;
+        width : 100%;
+    }
+
+    #div4{
+        margin-top : 30px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap : 20px;
+        width : 100%;
+    }
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .div4span1,.div4span1-1,.div4span1-2,.div4span1-3,.div4span1-4,.div4span1-5{
+        font-size: 1.5rem;
+    }
+    .div4span2,.div4span2-1,.div4span2-2,.div4span2-3,.div4span2-4,.div4span2-5{
+        font-size: 1.5rem;
+    }
+    .div4span3,.div4span3-1,.div4span3-2,.div4span3-3,.div4span3-4,.div4span3-5{
+        font-size: 1.5rem;
+    }
+    .div4span4,.div4span4-1,.div4span4-2,.div4span4-3,.div4span4-4,.div4span4-5{
+        font-size: 1.5rem;
+    }
+    .div4span5,.div4span5-1,.div4span5-2,.div4span5-3,.div4span5-4,.div4span5-5{
+        font-size: 1.5rem;
+    }
+    .pin,.pin-1,.pin-2,.pin-3,.pin-4,.pin-5{
+        font-size: 1.5rem;
+    }
+    .spanr1,.spanr1-1,.spanr1-2,.spanr1-3,.spanr1-4,.spanr1-5{
+        font-size: 1.5rem;
+    }
+    .spanr2,.spanr2-1,.spanr2-2,.spanr2-3,.spanr2-4,.spanr2-5{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+        #achievements{
+            font-size : 2.2rem;
+        }
+
+        #activity{
+            font-size : 2rem;
+        }
+
+        .activityspan{
+            font-size : 2rem;
+        }
+    
+        #div2{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap : 50px;
+        width : 100%;
+        }
+        #div4{
+            margin-top : 30px;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap : 20px;
+            width : 100%;
+        }
+
+        .scrolling-wrapper {
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+        }
+
+        .div4span1,.div4span1-1,.div4span1-2,.div4span1-3,.div4span1-4,.div4span1-5{
+            font-size: 2.0rem;
+        }
+        .div4span2,.div4span2-1,.div4span2-2,.div4span2-3,.div4span2-4,.div4span2-5{
+            font-size: 2.0rem;
+        }
+        .div4span3,.div4span3-1,.div4span3-2,.div4span3-3,.div4span3-4,.div4span3-5{
+            font-size: 2.0rem;
+        }
+        .div4span4,.div4span4-1,.div4span4-2,.div4span4-3,.div4span4-4,.div4span4-5{
+            font-size: 2.0rem;
+        }
+        .div4span5,.div4span5-1,.div4span5-2,.div4span5-3,.div4span5-4,.div4span5-5{
+            font-size: 2.0rem;
+        }
+        .pin,.pin-1,.pin-2,.pin-3,.pin-4,.pin-5{
+            font-size: 2.0rem;
+        }
+        .spanr1,.spanr1-1,.spanr1-2,.spanr1-3,.spanr1-4,.spanr1-5{
+            font-size: 2.0rem;
+        }
+        .spanr2,.spanr2-1,.spanr2-2,.spanr2-3,.spanr2-4,.spanr2-5{
+            font-size: 2.0rem;
+        }
+}
+
+
+/* Device = Most of the Smartphones Mobiles */
+@media (min-width: 260px) and (max-width: 480px) {
+    #achievements{
+        font-size : 1.8rem;
+    }
+
+    #activity{
+        font-size : 1.5rem;
+    }
+
+    .activityspan{
+        font-size : 1.5rem;
+    }
+    
+    #div2{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap : 50px;
+        width : 100%;
+        }
+
+    #div4{
+        margin-top : 30px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap : 20px;
+        width : 100%;
+    }
+
+    .div4span1,.div4span1-1,.div4span1-2,.div4span1-3,.div4span1-4,.div4span1-5{
+        font-size: 1.5rem;
+    }
+    .div4span2,.div4span2-1,.div4span2-2,.div4span2-3,.div4span2-4,.div4span2-5{
+        font-size: 1.5rem;
+    }
+    .div4span3,.div4span3-1,.div4span3-2,.div4span3-3,.div4span3-4,.div4span3-5{
+        font-size: 1.5rem;
+    }
+    .div4span4,.div4span4-1,.div4span4-2,.div4span4-3,.div4span4-4,.div4span4-5{
+        font-size: 1.5rem;
+    }
+    .div4span5,.div4span5-1,.div4span5-2,.div4span5-3,.div4span5-4,.div4span5-5{
+        font-size: 1.5rem;
+    }
+    .pin,.pin-1,.pin-2,.pin-3,.pin-4,.pin-5{
+        font-size: 1.5rem;
+    }
+    .spanr1,.spanr1-1,.spanr1-2,.spanr1-3,.spanr1-4,.spanr1-5{
+        font-size: 1.5rem;
+    }
+    .spanr2,.spanr2-1,.spanr2-2,.spanr2-3,.spanr2-4,.spanr2-5{
+        font-size: 1.5rem;
+    }
+       
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    #div3{
+        width:100%;
+    }
+    #div3 span{
+        font-size : 4vw;
+    }
+    #div3span1{
+        font-size: 1vw;
+    }
+    #div3span2{
+        font-size: 1vw;
+    }
+
+}

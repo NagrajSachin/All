@@ -1,0 +1,124 @@
+.background1{
+    background : #3B5998;
+}
+.background2{
+    font-size : 20px;
+    font-weight : bold;
+    background : #dfe3ee;
+}
+
+.grid{
+    float : right;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding : 10px;
+    color : white;
+}
+
+.form{
+    float : right;
+    margin: 10px;
+    color : white;
+}
+
+.inline{
+    display : inline-block;
+    margin-left : 10px;
+}
+
+.align{
+    margin-top : 27px;
+    margin-left : 10px;
+}
+
+.top{
+    margin-top : 2px;
+}
+
+.div-3{
+    margin-top : 25px;
+}
+
+.title{
+    margin:40px 10px 10px 20px;
+    float : left;
+    font-size : 35px;
+    font-weight : bold;
+    color : white;
+}
+
+.div1{
+    color : #3B5998;
+    padding : 20px;
+}
+
+.div2{
+    padding : 20px;
+}
+
+.div3{
+    margin-top : 10px;
+}
+p{
+    text-align: justify;
+}
+
+#btn-2{
+    border : none;
+    border-radius : 5px;
+    background : rgb(60, 141, 60);
+    color : white;
+    padding : 10px;
+}
+
+#btn-1{
+    background : #3b5998;
+    border : 2px solid #273d6b;
+    color : white;
+}
+
+#img{
+    margin : 20px;
+}
+
+@media (min-width : 992px) and (max-width: 1200px) {
+}
+
+@media (min-width : 768px) and (max-width: 991px) {
+    .grid{
+        float : right;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding : 10px;
+        color : white;
+        width : 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .grid{
+        float : left;
+        clear : left;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        padding : 10px;
+        color : white;
+        width : 100%;
+    }
+}
+
+@media (min-width: 220px) and (max-width: 480px) {
+    .grid{
+        float : left;
+        clear : left;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        padding : 10px;
+        color : white;
+        width : 100%;
+    }
+}
